@@ -12,7 +12,7 @@
 typedef struct h264_stream {
     uint8_t *data;
     uint32_t size;
-    int bit_pos;
+    int bit_pos; // index count from right to left
     int byte_pos;
 }h264_stream_t;
 
